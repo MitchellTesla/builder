@@ -1,5 +1,5 @@
 # Start from the sgx-rust base image
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # Add all the things we need to build chainlink
 ENV DEBIAN_FRONTEND noninteractive
